@@ -71,7 +71,6 @@ header{
 #head p{
 	position: relative;
 	z-index: 1;
-	top:-19.15vw;
 	color: #fff;
 	font-size: 25px;
 	text-align: center;
@@ -85,7 +84,12 @@ header{
 .smallHead2,.smallHead3{
 	display: none;
 }
-
+.textslide{
+	position: relative;
+	top: -19.15vw;
+	height: 40px;
+	overflow:hidden;
+}
 /*Only h1*/
 h1{
 	line-height: 45.98vw;
@@ -198,8 +202,11 @@ h2{
 	position: relative;
 	background: #fff;
 	white-space:normal;
+	height: 897px;
 	width: 100%;
 	opacity: 0.9;
+	overflow: hidden;
+
 }
 .about h2{
 	text-align:left;;

@@ -120,7 +120,7 @@ var interval;
 			$body.css("overflow","auto");
 	});
 	}
-	setTimeout(offPreloader,2000);
+	setTimeout(offPreloader,4000);
 
 
 

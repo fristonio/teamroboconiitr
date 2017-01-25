@@ -238,6 +238,7 @@ h2{
 .testimonials{
 	display: none;
 	height: 30.95vw;
+	overflow: hidden;
 }
 .item{
 	width: 100%;

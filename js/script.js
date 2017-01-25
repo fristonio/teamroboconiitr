@@ -196,5 +196,10 @@ var interval;
 
 	}
 	forward();
+/*media query*/
+    if (window.matchMedia('(max-width: 1030px)').matches){
+    	displayAll();
+	}
+
 
 });
